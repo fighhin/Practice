@@ -20,7 +20,7 @@ def parse_one_paeg(html):
             '排名：':item[0],
             '片名':item[1],
             '主演':item[2],
-            '发布时间':item,
+            '发布时间':item[3],
             '评分':item[4]+item[5]
         }
 
