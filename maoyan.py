@@ -44,10 +44,7 @@ def main():
     html=get_one_page(url)
 
     for item in parse_one_paeg(html):
-        #item=str(item)
         print item
-        #for t in item:
-            #print t.encode('utf-8')
         write_to_file(item)
 
 if __name__ == '__main__':
